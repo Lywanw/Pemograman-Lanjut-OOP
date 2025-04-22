@@ -45,7 +45,6 @@ public class Special extends Stat {
     }
 
     public void print(boolean showType) {
-        System.out.println(showType);
         if (showType) {
             System.out.println("Pokedex: "+number+"Nama pokemon: " + name );
         } else {
